@@ -13,12 +13,13 @@ Se realizaron 5 test de aceptación con el fin de construir un proyecto de autom
 * [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Pre-requisitos
-Necesitar tener instalado npm e ingresar el siguiente comando
-
-1. Node.js
+Necesitar tener instalado Node.js, lo puedes descargar de acá
 
   * [Node.js](https://nodejs.org/es/)
 
+Tambien necesitarás tener instalado Visual Studio Code
+
+* [Visual Studio Code](https://code.visualstudio.com/)
 
 ### Instalación
 1. Clona el repositorio
