@@ -4,7 +4,7 @@ Proyecto de testing automatizado de 5 test de aceptación para la empresa Tsoft
 ### Introducción
 Se realizaron 5 test de aceptación con el fin de construir un proyecto de automatización de pruebas, para optar a una oferta laboral.
 
-### construcción
+### Construcción
 * [Node.js](https://nodejs.org/es/)
 * [NPM](https://www.npmjs.com/)
 * [Mocha](https://mochajs.org/)
