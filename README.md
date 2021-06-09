@@ -64,6 +64,8 @@ Se visualizará explícitamente si la prueba paso con éxito o hubo un fallo ind
       ✔ Deberia no poder realizar un Delete de un ejemplo
    ```
     
+### Reportes
+Para los reportes se utilizo Mochawesome, logrando con esto generar reportes automaticos despues de cada testeo.
 
 ### Posibles errores
 Es posible que no están habilitadas tus políticas de excepción, para verificar esto debes:
