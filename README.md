@@ -45,7 +45,25 @@ Las pruebas verifican la funcionalidad de una API REST, donde se probarán los s
    GET-POST-PUT-PATCH-DELETE
    ```
 
-Se visualizará explícitamente si la prueba paso con éxito o hubo un fallo inducido
+Se visualizará explícitamente si la prueba paso con éxito o hubo un fallo inducido, este sera el formato.
+``` sh
+    GET /api/task
+      ✔ Deberia realizar un GET de todos los ejemplos
+      ✔ Deberia no poder realizar un GET de los ejemplos
+    POST /api/task
+      ✔ Deberia realizar POST de un nuevo ejemplo
+      ✔ Deberia no poder realizar POST de un nuevo ejemplo
+    PUT /api/task:id
+      ✔ Deberia realizar un PUT de un ejemplo
+      ✔ Deberia no poder realizar un PUT de un ejemplo
+    PATCH /api/task:id
+      ✔ Deberia realizar un PATCH (estado) de un ejemplo
+      ✔ Deberia no poder realizar un PATCH (estado) de un ejemplo
+    DELETE /api/task:id
+      ✔ Deberia realizar un Delete de un ejemplo
+      ✔ Deberia no poder realizar un Delete de un ejemplo
+   ```
+    
 
 ### Posibles errores
 Es posible que no están habilitadas tus políticas de excepción, para verificar esto debes:
@@ -59,4 +77,7 @@ Si en la lista que te aparecerá están todas las opciones en "Undefined" debes 
    ```
 Esto hará que la ejecución de script estén habilitados en tu LocalMachine, por lo que esa opción de la lista pasara de "Undefined" a "RemoteSigned".
 Con esto se solucionará un error común encontrado en proyectos como este.
+
+### Autor
+* **Oscar Reyes** - [Oscarim1](https://github.com/Oscarim1)
 
