@@ -4,7 +4,7 @@
   "description": "Testing",
   "main": "app.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha --reporter mochawesome --reporter-options reportDir=Report,reportFilename=Test_Report",
     "docs": "jsdoc -c jsdoc.json"
   },
   "author": "",
@@ -12,7 +12,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "i": "^0.3.6",
-    "joi": "^14.3.1"
+    "joi": "^14.3.1",
+    "mochawesome": "^6.2.2"
   },
   "devDependencies": {
     "chai": "^4.3.4",
