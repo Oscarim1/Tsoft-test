@@ -15,9 +15,9 @@ Se realizaron 5 test de aceptación con el fin de construir un proyecto de autom
 ### Pre-requisitos
 Necesitar tener instalado npm e ingresar el siguiente comando
 
-1. npm
+1. Node.js
   ```sh
-  npm install 
+  [Node.js](https://nodejs.org/es/)
   ```
 
 ### Instalación
@@ -26,7 +26,11 @@ Necesitar tener instalado npm e ingresar el siguiente comando
    ``` sh
    git clone https://github.com/Oscarim1/Tsoft-test.git
    ```
+2. Instalacion de dependencias
 
+   ``` sh
+   npm install
+   ```
 ### Ejecutando las pruebas
 Dentro del proyecto, abrimos la terminal e ingresamos el siguiente comando
 
