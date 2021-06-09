@@ -16,9 +16,9 @@ Se realizaron 5 test de aceptación con el fin de construir un proyecto de autom
 Necesitar tener instalado npm e ingresar el siguiente comando
 
 1. Node.js
-  ```sh
-  [Node.js](https://nodejs.org/es/)
-  ```
+
+  * [Node.js](https://nodejs.org/es/)
+
 
 ### Instalación
 1. Clona el repositorio
